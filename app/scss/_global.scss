@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  font-size: inherit;
+}
+
+p{
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+body{
+  @extend %pp-regular;
+  background-color: #192023;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.text{
+  color: #D4D4D4;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.section-title{
+  color: #FFF;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.section-page{
+  padding-bottom: 102px;
+}
